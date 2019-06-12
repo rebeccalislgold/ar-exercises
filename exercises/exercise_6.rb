@@ -9,3 +9,13 @@ puts "Exercise 6"
 puts "----------"
 
 # Your code goes here ...
+
+#Create a bunch under @store1 (Burnaby) and @store2 (Richmond). Eg: @store1.employees.create(...).
+
+@store1.employees.create(first_name: "Khurram", last_name: "Virani", hourly_rate: 60)
+@store1.employees.create(first_name: "Rebecca", last_name: "Gold", hourly_rate: 70)
+@store1.employees.create(first_name: "John", last_name: "Smith", hourly_rate: 40)
+
+@store2.employees.create(first_name: "Jane", last_name: "Smith", hourly_rate: 50)
+@store2.employees.create(first_name: "Eric", last_name: "St-Pierre", hourly_rate: 30)
+@store2.employees.create(first_name: "Mira", last_name: "Turner", hourly_rate: 40)
